@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg" type="image/svg" sizes="32x32" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/style.css" />
+    <title>Hotel Estancias Las Carreras</title>
+  </head>
+  <body>
+      <!--Header-->
+    <header>
+      <section class="bg-dark" id="Inicio">
+        <div class="container" >
+          <div class="d-flex justify-content-between mb-1  top-nm text-white bg-dark">
+            <span class="ms-3 p-1"><a href="#Contacto" class="text-decoration-none text-white"><i class="bi bi-geo-alt"></i></a>Tafí del Valle
+              <a href="tel:+543814647333" class="text-decoration-none ms-5 text-decoration-none text-white num-nm"><i class="bi bi-telephone"></i>+54(381)4647333</a>
+            </span>
+            <span class="d-flex justify-content-between me-3">
+              <a href="tel:+543814647333" class="mx-3 my-1 text-decoration-none text-white tel-nm"><i class="bi bi-telephone"></i></a> 
+              <a href="mailto:info@estanciaslascarreras.com" class="text-decoration-none text-white"><i class="bi bi-envelope fs-5" title="e-mail"></i></a>
+              <a href="https://www.facebook.com/estancialascarreras" target="_blank"  class="mx-3 text-decoration-none text-white"><i class="bi bi-facebook fs-5" title="Facebook"></i></a>
+              <a href="http://www.instagram.com/estancialascarreras/?hl=en" class="text-decoration-none text-white"><i class="bi bi-instagram fs-5" title="Instagram"></i></a>
+            </span>
+          </div> 
+        </div>
+      </section>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <img src="./Images/LOGO2.png" alt="" class="logo-nm">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right me-5" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-bolt text-decoration-none text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolt text-decoration-none text-white" href="#Bienvenidos">Bienvenidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolt text-decoration-none text-white" href="#Habitaciones">Habitaciones</a>
+              </li>         
+              <li class="nav-item">
+                <a class="nav-link fw-bolt text-decoration-none text-white" href="#Servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolt text-decoration-none text-white" href="#galleryAmenisties">Actividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolt text-decoration-none text-white" href="#Testimonios">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolt text-decoration-none text-white" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Main-->
+    <main>
+      <!--Hero-->
+      <section >
+        <div id="carouselPrincipal" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/renovando-energias.jpg" class="d-block w-100" alt="Renová tus energías">
+              <div class="carousel-text"> 
+                <h3 class="fontSlider">VEN&Iacute; A RENOVAR TUS ENERG&Iacute;AS</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/conectar-naturaleza.jpg" class="d-block w-100" alt="Conectate a la Naturaleza">
+              <div class="carousel-text"> 
+                <h3 class="fontSlider">CONECTATE A LA NATURALEZA</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/dentro-estancia.jpg" class="d-block w-100" alt="Viví la historia">
+               <div class="carousel-text"> 
+                  <h3 class="fontSlider">VIV&Iacute; LA HISTORIA</h3>
+               </div>
+            </div>
+          </div>
+          <div id="Reserva"></div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>       
+      <!--Reserva-->     
+        <div class="container">
+          <div class="row Reservaform">
+            <div class="col-lg-12">
+              <h4 class="text-white">Reserva tu lugar</h4>
+              <form class="row row-cols-lg-auto g-3 align-items-center">
+                <div class="col-12">
+                  <label for="date" class="text-white" >LLegada</label>
+                  <div class="datetimepicker form-control">
+                    <input type="date" id="date" value="2018-07-03">
+                    <span></span>
+                    <input type="time" id="time" value="08:00">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="date" class="text-white" >Salida</label>
+                  <div class="datetimepicker form-control">
+                    <input type="date" id="date" value="2018-07-03">
+                    <span></span>
+                    <input type="time" id="time" value="08:00">
+                  </div>
+                </div>              
+                <div class="col-12">
+                  <label for="inlineFormSelectPref" class="text-white">Cu&aacute;ntos Adultos?</label>
+                  <select class="form-select" id="inlineFormSelectPref">
+                    <option selected>Adultos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>              
+                <div class="col-12">
+                  <label for="inlineFormSelectPref" class="text-white">Cu&aacute;ntos Niños?</label>
+                  <select class="form-select" id="inlineFormSelectPref">
+                    <option selected>Niños</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>              
+                <div class="col-12">
+                 <br>
+                  <button type="button" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Proximamente">
+                    Reservar ahora
+                  </button>
+                </div> 
+              </form>
+            </div>                 
+          </div>
+        </div>
+      </section>
+      <!--Bienvenidos-->
+      <section class="bg-home-bienvenida d-flex justify-content-center py-5 pb-5" id="Bienvenidos">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="ratio ratio-16x9 videoaspecto">
+                <iframe class="" src="https://www.youtube.com/embed/BoP8xGoX6KM" title="YouTube video" allowfullscreen></iframe>
+              </div>     
+            </div>           
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <h1 class="display-2 ">Bienvenidos</h1>
+              <p >Ubicado en el bello y encantador <strong>Taf&iacute; del Valle, la Estancia Jesu&iacute;tica Las Carreras </strong>le ofrece una alternativa &uacute;nica para una estad&iacute;a inolvidable.
+              </p>
+              <p>Con más de 230 años,<strong>la Estancia Jesu&iacute;tica Las Carreras</strong>  es uno de los cascos de estancia m&aacute;s antiguos del Valle Calchaqu&iacute;, en su arquitectura se ve reflejada la herencia cultural de la zona.
+              </p>
+              <p>Es una estancia agr&iacute;cola ganadera en pleno funcionamiento, reconocida por su producci&oacute;n de <strong>quesos manchegos</strong>.
+              </p>
+              <p>Actualmente es considerada una de las mejores estancias de Argentina y un punto de referencia inevitable en el Norte.
+              </p>
+            </div>            
+          </div>
+        </div>
+      </section>
+      <!--Covid-->
+      <section class="py-3 bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-evenly p-lg-4 p-md-2">
+              <img src="./images/mascarilla-medica.png" alt="Mascarilla Medica" class="img-size-covid">
+              <img src="./images/distancia.png" alt="Tomar Distancia" class="img-size-covid ">
+              <img src="./images/lavarse-las-manos.png" alt="Lavarse las manos" class="img-size-covid">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-evenly p-lg-4">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="p-2 fs-4 text-center text-white">NOS CUIDAMOS PARA PROTEGER A LOS DEM&Aacute;S</p>
+                </div> 
+                <div class="col-sm-12 text-center pb-2">
+                  <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Protocolos COVID</button>
+                </div>
+              </div>
+            </div>
+            <div class="collapse px-3" id="collapseExample">
+              <div class="bg-card card card-body ">
+                <ul class="list-unstyled p-2">
+                  <li class="mb-2 "><h4><span class="badge bg-secondary text-white me-1">1</span>Control de temperatura al personal y huéspedes del hotel</h4><p>Al ingresar a la finca que alberga al hotel, el personal de seguridad procederá a tomar la temperatura de todos los huéspedes y personas que visiten el hotel</p>
+                  </li>
+                  <li class="mb-2"><h4><span class="badge bg-secondary text-white me-1">2</span>Distanciamiento Social</h4><p>Se tomaran estas medidas entre los miembros del hotel y también entre ellos y los huéspedes. Este distanciamiento se aplicará dentro y fuera del establecimiento y en todas las áreas comunes, como ser recepción, restaurant, sala de estar, pasillo, lobby, etc.</p>
+                  </li>
+                  <li class="mb-2"><h4><span class="badge bg-secondary text-white me-1">3</span>Higiene y lavado de manos</h4><p>Promover el lavado asiduo de manos con agua y jabón. En casos de no ser posible, se dispondrá alcohol en gel en todas las áreas necesaria. Se recomienda la aplicación del mismo 1 vez cada 20 minutos y/o luego de manipular cualquier pertenencia ajena o de huéspedes</p>
+                  </li>
+                  <li class="mb-2"><h4><span class="badge bg-secondary text-white me-1">4</span>Tapabocas</h4><p>Promover el lavado asiduo de manos con agua y jabón. En casos de no ser posible, se dispondrá alcohol en gel en todas las áreas necesaria. Se recomienda la aplicación del mismo 1 vez cada 20 minutos y/o luego de manipular cualquier pertenencia ajena o de huéspedes</p>
+                  </li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Habitaciones-->
+      <section class="bg-habitaciones py-4">
+        <div class="container" id="Habitaciones">
+          <h1 class="text-center  display-2 pt-5 pb-4">Nuestras Habitaciones</h1>
+          <div class="row justify-content-around">
+            <div class="card col-lg col-sm-12 background-card me-lg-3 pb-2 mb-5">
+              <h2 class="card-title text-center pt-4 pb-2 text-white">Simple</h2>
+              <div id="carousel1" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Images/Simple.jpg"  class="d-block w-100 altimg rounded" alt="Habitaci&oacute; simple"  width="100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/Simple3.jpg" class="d-block w-100 altimg rounded" alt="Habitaci&oacute; simple 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/Simple4.jpg" class="d-block w-100 altimg rounded" alt="Habitaci&oacute; simple 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/Simple5.jpg" class="d-block w-100 altimg rounded" alt="Habitaci&oacute; simple 4">
+                  </div>
+                </div>
+              </div>
+              <a href="./Habitaciones.html#Simple" class="mt-2 btn btn-dark text-decoration-none text-white">Ver Detalles </a>
+            </div>
+            <div class="card col-lg col-sm-12 background-card me-lg-3 pb-2 mb-5">
+              <h2 class="card-title text-center pt-4 pb-2 text-white">Triple</h2>
+              <div id="carousel3" class="carousel carousel-dark slide" data-bs-ride="carousel"  data-bs-interval="4000">
+                <div class="carousel-indicators">
+                  <button type="button"  data-bs-target="#carousel3"  data-bs-slide-to="0"  class="active" aria-current="true" aria-label="Slide 1">
+                  </button>
+                  <button type="button"  data-bs-target="#carousel3"  data-bs-slide-to="1"  aria-label="Slide 2">
+                  </button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Images/Doble b.jpg" class="d-block w-100 altimg rounded" alt="Habitaci&oacute; Doble 1" width="100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/Doble3.jpg"  class="d-block w-100 altimg rounded" alt="Habitaci&oacute; Doble 2">
+                  </div>
+                </div>
+              </div>
+              <a href="./Habitaciones.html#Doble" class="mt-2 btn btn-dark text-decoration-none text-white" >Ver Detalles </a>
+            </div>
+            <div class="card col-lg col-sm-12 background-card me-lg-3 pb-2 mb-sm-5">
+              <h2 class="card-title text-center pt-4 pb-2 text-white">Familiar</h2>
+              <div id="carousel2" class="carousel carousel-dark slide"  data-bs-ride="carousel"  data-bs-interval="4000">
+                <div class="carousel-indicators">
+                  <button  type="button" data-bs-target="#carousel2"  data-bs-slide-to="0"  class="active"  aria-current="true"  aria-label="Slide 1">
+                  </button>
+                  <button  type="button"  data-bs-target="#carousel2"  data-bs-slide-to="1"  aria-label="Slide 2">
+                  </button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img  src="Images/Triple a.jpg" class="d-block w-100 altimg rounded"  alt="Habitaci&oacute; Triple 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/Cuadruple a.jpg" class="d-block w-100 altimg rounded" alt="Habitaci&oacute; Triple 2">
+                  </div>
+                </div>
+              </div>
+              <a href="./Habitaciones.html#Familiar" class="mt-2 btn btn-dark text-decoration-none text-white" >Ver Detalles </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Servicios-->
+      <section class="mt-1 container pb-4" id="Servicios">
+        <h1 class="text-center text-bolder my-2 display-2 pt-5 pb-4">Servicios</h1>
+        <div class="row">
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/wi-fi-gratis.png" alt="WIFI Gratis" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">WiFi</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/estacionamiento.png" alt="Estacionamiento" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Estacionamiento</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/gourmet.png" alt="Comida Gourmet" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Comida Gourmet</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/room-service.png" alt="Servicio de Habitaci&aacute;n" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Room Service</p>
+            </div>
+          </div>    
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/aire-acondicionado.png" alt="Calefacci&oacute;n central" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Calefacci&oacute;n central</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/lavadora.png" alt="Lavander&iacute;a" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Lavander&iacute;a</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/solarium.png" alt="Solarium" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Solarium</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/parrilla.png" alt="Quincho con Asador" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Quincho con Asador</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/mapa.png" alt="Excursiones" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Excursiones</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/riding.png" alt="Cabalgatas" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Cabalgatas</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/observation.png" alt="Avistaje de Fauna" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Birdwatching</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 col-4 mi-card pt-2 px-1 my-1 mx-0">
+            <img src="./images/museum.png" alt="Museo Jesu&iacute;tica" class="img-size">
+            <div class="card-body py-2 px-0">
+              <p class="text-center fw-bold text-muted">Museos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Actividades -->
+      <section class="bg-dark py-4">
+        <div class="container pb-4">
+          <h1 class="text-center text-white text-bolder my-2 display-2 pb-4 py-3">Ven&iacute; a disfrutar de nuestras Actividades</h1>
+          <div class="row " id="galleryAmenisties" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="col-12  col-lg-4 col-md-4 col-sm-6  contenedorA">
+              <img class="w-100" src="./Images/cabalgata1.jpg" alt="Cabalgatas" data-bs-target="#carouselExampleA" data-bs-slide-to="0">
+            </div>
+            <div class="col-12  col-lg-4 col-md-4 col-sm-6 contenedorA">
+              <img class="w-100" src="./Images/quesosartesanalaes.jpg" alt="Nuestros quesos artesanales" data-bs-target="#carouselExampleA" data-bs-slide-to="1">
+            </div>
+            <div class="col-12  col-lg-4 col-md-4 col-sm-6  contenedorA">
+              <img class="w-100" src="./Images/charlasdecocina.jpg" alt="Charlas & cursos pr&aacute;cticos de cocina" data-bs-target="#carouselExampleA" data-bs-slide-to="2">
+            </div>
+            <div class="col-12  col-lg-4 col-md-4 col-sm-6  contenedorA">
+              <img class="w-100"src="./Images/avistaje.jpg" alt="Avistaje de flora y fauna" data-bs-target="#carouselExampleA" data-bs-slide-to="3">
+            </div>
+            <div class="col-12  col-lg-4 col-md-4 col-sm-6  contenedorA">
+              <img class="w-100" src="./Images/Capilla.jpg" alt="Capilla de la Estancia Las Carreras" data-bs-target="#carouselExampleA" data-bs-slide-to="4"> 
+            </div>
+            <div class="col-12  col-lg-4 col-md-4 col-sm-6 contenedorA">
+              <img class="w-100" src="./Images/estancia.jpg" alt="Caminatas por los alrededores de la estancia" data-bs-target="#carouselExampleA" data-bs-slide-to="5">
+            </div>
+            <div class="col-12  col-lg-4 col-md-4 col-sm-6  contenedorA">
+              <img class="w-100" src="./Images/Comida.jpg" alt="Disfrut&aacute; de nuestra gastronom&iacute;a" data-bs-target="#carouselExampleA" data-bs-slide-to="6"> 
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-6  contenedorA">
+              <img class="w-100" src="./Images/cultivos.jpg" alt="Cultivos de frutillas" data-bs-target="#carouselExampleA" data-bs-slide-to="7">
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-6  contenedorA">
+              <img class="w-100" src="./Images/ganaderia.jpg" alt="Cerca del ganado" data-bs-target="#carouselExampleA" data-bs-slide-to="8">
+            </div>
+          </div> 
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg " >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Ven&iacute; a disfrutar de la Estancia Las Carreras</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  
+                </div>
+                <div class="modal-body"> 
+                  <div id="carouselExampleA" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                    <ol class="carousel-indicators">
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="2"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="3"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="4"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="5"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="6"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="7"></li>
+                      <li data-bs-target="#carouselExampleA" data-bs-slide-to="8"></li>
+                    </ol>  
+                    <div class="carousel-inner" >
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 " src="./Images/cabalgata1.jpg" alt="Cabalgatas">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Paseos en Caballo</h5>
+                      </div>
+                      <div class="carousel-item"> 
+                        <img class="d-block w-100" src="./Images/quesosartesanalaes.jpg" alt="Nuestros quesos artesanales">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Paseo por la F&aacute;brica de nuestros Quesos M. exquisitos</h5>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./Images/charlasdecocina.jpg" alt="Charlas & cursos pr&aacute;cticos de cocina">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Charlas & cursos pr&aacute;cticos de cocina</h5>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100"  src="./Images/avistaje.jpg" alt="Avistaje de flora y fauna">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Avistaje de flora y fauna</h5>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./Images/Capilla.jpg" alt="Capilla de la Estancia Las Carreras">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Visitas a ruinas arqueol&oacute;gicas</h5>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./Images/estancia.jpg" alt="Caminatas por los alrededores de la estancia">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Caminatas por los alrededores de la estancia</h5>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./Images/comida.jpg" alt="Disfrutá de nuestra gastronomía">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Disfrut&aacute; de nuestra gastronom&iacute;a</h5>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./Images/cultivos.jpg" alt="Cultivo de Frutillas">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Conoc&eacute; nuestros cultivos...Tentadoras nuestras frutillas.</h5>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./Images/ganaderia.jpg" alt="Nuestro ganado cuidado">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Conoc&eacute; nuestros ganado Jersey </h5>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleA" type="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleA" type="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>            
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Testimonios-->
+      <section class="bg-secondar py-2" id="Testimonios">
+        <h1 class="d-flex justify-content-center text-white display-2 pb-4 py-3">Testimonios</h1>
+        <div  id="carouselExampleIndicators" class="carousel slide pb-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button"  data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="0" class="active"
+              aria-current="true"  aria-label="Slide 1"></button>
+            <button  type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button"  data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center align-items-center text-white">
+                <img class="imagespace rounded-circle" src="Images/person-01.jpg" alt="Mi experiencia fue divina">
+                <h6 class="text fw-light lh-lg fst-italic">"Mi experiencia fue divina. Nos recibieron super bien, un lugar muy cálido. La cena fue exquisita y tenían vinos de calidad.  El desayuno palabras mayores, todo casero y abundante. No pude haber elegido mejor!!!
+                </h6>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center align-items-center text-white text-light">
+                <img class="imagespace rounded-circle" src="Images/person-02.jpg" alt="Hermoso lugar para hospedarse">
+                <h6 class="text fw-light lh-lg fst-italic">
+                  "Hermoso lugar par  hospedarse, pasar a almorzar, tomar una merienda, o realizar una cabalgata.
+                  Es un lugar que disfrutan niños y grandes. Hay paseos para ver los animales, degustación de quesos.
+                  Y que decir de la atención, excelente!"
+                </h6>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center align-items-center text-white">
+                <img class="imagespace rounded-circle" src="Images/person-03.jpg" alt="Un lugar increíble">
+                <h6 class="text fw-light lh-lg fst-italic"> "Un lugar increíble con todo para pasarla bien. La comida riquísima!!. Muy recomendable para ir en Pareja , con amigos o en familia tenés de todo para hacer!!!!!"
+                </h6>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev btnjc" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next btnjc" type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!--Contactanos-->
+      <section class="contact container py-2" id="Contacto">
+        <h1 class="d-flex justify-content-center display-2">Cont&aacute;ctanos</h1>
+        <div class="row">
+          <div class="col-lg-7 pb-sm-5 mb-2">
+            <div  id="map-container-google-11" class="z-depth-1-half map-container-6">
+              <iframe src="https://www.google.com/maps/embed/v1/search?q=Estancia%20Las%20Carreras%2C%20RP325%20Km%2013%2C%20El%20Mollar%2C%20Tucum%C3%A1n&key=AIzaSyDRNdjSuXGxY78Hpmjn3Y-iO6ASIFWdaQ8" frameborder="0"  style="border: 0" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="col-lg-5 mb-4">
+            <div class="card">
+              <div class="card-body  bg-color-contact">
+                <div class="mb-4">
+                  <h4>Si ten&eacute;s alguna duda, escribinos y te contactaremos a la brevedad.</h4>
+                </div>
+                <div>
+                  <label for="form-name">Tu Nombre</label>
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <input type="text" id="form-name" class="form-control" />
+                </div>
+                <div>
+                  <label for="form-email">Tu email</label>
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <input type="text" id="form-email" class="form-control" />
+                </div>
+                <div>
+                  <label for="form-Subject">Asunto</label>
+                  <i class="fas fa-tag prefix grey-text"></i>
+                  <input type="text" id="form-Subject" class="form-control" />
+                </div>
+                <div>
+                  <label for="form-text">Mensaje</label>
+                  <i class="fas fa-pencil-alt prefix grey-text"></i>
+                  <textarea
+                    id="form-text"
+                    class="form-control md-textarea"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="text-center mt-4">
+                  <button class="btn btn-outline-dark" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModalC">Enviar</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalC" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Gracias por Contactarte con nosotros</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        El Mensaje se ha enviado con &eacute;xito!!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="#Inicio"type="button" class="btn btn-dark inicio"><i class="bi bi-arrow-up-circle"></i> </a>
+    </main>
+    <!--Footer-->
+    <footer class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="d-flex align-items-center flex-column">
+               <img class="logo-jfs text-center"  src="./Images/LogoBlanco.png" alt="">
+               <h4 class="pt-2 pb-4 fst-italic text-white"> "Somos tu destino"</h4>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 ">
+            <div class="d-flex align-items-center flex-column mb-3">
+              <h4 class="p-3 text-white">Accesos Principales</h4>
+              <ul class="list-unstyled  p-2">
+                <li class="mb-2 "><a class="link-light  text-decoration-none"href="#Reserva"> Reserva</a></li>
+                <li class="mb-2"><a class="link-light  text-decoration-none" href="#Habitaciones"> Habitaciones</a></li>
+                <li class="mb-2"><a class="link-light  text-decoration-none" href="#Servicios"> Servicios</a></li>
+              </ul>
+              <div class="p-3 text-white">Seguinos
+                <span class="p-2 text-black">
+                  <a href="http://www.instagram.com/estancialascarreras/?hl=en" target="_blank"><i class="bi bi-instagram m-2 link-light"></i></a>
+                  <a href="http://es-la.facebook.com/estancialascarreras" target="_blank"><i class="bi bi-facebook m-2 link-light"></i></a>
+                  <a href="https://www.youtube.com/user/estancialascarreras" target="_blank"><i class="bi bi-youtube  m-2 link-light"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="d-flex flex-column text-center mb-3">
+              <h4 class="p-3  text-white">Las Carreras Hotel Estancia Jesu&iacute;tica</h4>
+              <p class="p-2 fs-5 fst-italic text-white">Ruta pcial.325 | km.13/C.P 4137 | Taf&iacute; del Valle <br> Tucum&aacute;n | Argentina.</p>
+              <p class="fs-5 fst-italic text-white">+54(381)4647333 | info@estanciaslascarreras.com</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex justify-content-center">
+          <p class="fst-italic text-white text-center">  Las Carreras Hotel Estancia Jesu&iacute;tica, 1779  |  Todos los derechos reservados  |  Copyrights 2021 </p>
+        </div>
+      </div>
+    </footer>
+    <!--JS Booststrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>

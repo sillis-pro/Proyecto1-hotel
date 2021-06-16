@@ -1,0 +1,244 @@
+/* general */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #e5dbd1;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+.inicio {
+  background-color: #b54b57;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 99;
+}
+@media (max-width: 780px) {
+  .inicio {
+    display: none;
+  }
+}
+/* header */
+.logo-nm {
+  width: 300px;
+}
+@media (max-width: 414px) {
+  .logo-nm {
+    width: 250px;
+  }
+}
+.top-nm {
+  background-color: #bdb4ab;
+}
+.navbar {
+  background-color: #a62335;
+}
+@media (min-width: 420px) {
+  .tel-nm {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  .num-nm {
+    display: none;
+  }
+}
+
+/* Hero */
+.Reservaform {
+  background: #a62335;
+  padding: 20px 75px 25px;
+  position: relative;
+  bottom: 40px;
+  z-index: 9;
+}
+.datetimepicker {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+}
+.datetimepicker input {
+  font: inherit;
+  color: inherit;
+  appearance: none;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+.datetimepicker input[type="date"] {
+  width: 10rem;
+  border-right-width: 0;
+}
+.datetimepicker input[type="time"] {
+  width: 5.5rem;
+  border-left-width: 0;
+}
+.datetimepicker span {
+  height: 1rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  border-right: 1px solid #ddd;
+}
+#carouselPrincipal .carousel-item img {
+  object-fit: cover;
+  height: 80vh;
+}
+.carousel-text {
+  position: absolute;
+  top: 45%;
+  right: 15%;
+  left: 15%;
+  color: #fff;
+  text-align: center;
+}
+.fontSlider {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 56px;
+  text-shadow: 2px 2px 8px #000000;
+}
+@media (max-width: 414px) {
+  .fontSlider {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px #000000;
+  }
+}
+/* Codvid */
+.img-size-covid {
+  margin: 0%;
+  padding: 0%;
+  width: 11vh;
+  height: max-content;
+}
+@media (max-width: 768px) {
+  .img-size-covid {
+    width: 8vh;
+    height: max-content;
+  }
+}
+.bg-card {
+  background-color: #e5dbd1;
+}
+/* Habitaciones */
+.altimg {
+  width: 60%;
+  height: 40%;
+}
+.bg-habitaciones {
+  background-color: #bdb4ab;
+}
+.background-card {
+  background-color: #bb4b57;
+}
+/* Servicios */
+.img-size {
+  width: 13vh;
+}
+.mi-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #e5dbd1;
+}
+/* Actividades */
+#galleryAmenisties img {
+  height: 75vw;
+  padding-bottom: 20px;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+@media (min-width: 576px) {
+  #galleryAmenisties img {
+    height: 35vw;
+  }
+  #carouselExampleA .carousel-item img {
+    height: 350px;
+  }
+  #carouselExampleA .carousel-item img {
+    height: 450px;
+  }
+}
+@media (min-width: 992px) {
+  #galleryAmenisties img {
+    height: 18vw;
+  }
+  #carouselExampleA .carousel-item img {
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+#carouselExampleA .carousel-item img {
+  height: 420px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+/*---efectos-Amenisities---------*/
+.contenedorA img {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease; /* Safari y Chrome */
+  -moz-transition: all 0.3s ease; /* Firefox */
+  -o-transition: all 0.3s ease; /* IE 9 */
+  -ms-transition: all 0.3s ease; /* Opera */
+  width: 80%;
+}
+.contenedorA:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.contenedorA {
+  overflow: hidden;
+}
+/* Testimonios */
+.bg-secondar {
+  background-color: #a62335;
+}
+.imagespace {
+  width: 30vh;
+  margin-right: 3%;
+}
+@media (max-width: 414px) {
+  .btnjc {
+    display: none;
+  }
+  .imagespace {
+    width: 25vh;
+    margin-right: 3%;
+  }
+}
+.text {
+  width: 38%;
+}
+/* Contactanos */
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 63%;
+  position: relative;
+  height: 0;
+}
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.contact {
+  margin-top: 10vh;
+  width: 100%;
+}
+/* footer */
+footer {
+  background-color: #a62335;
+}
+.logo-jfs {
+  width: 200px;
+}
