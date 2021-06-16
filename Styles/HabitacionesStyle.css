@@ -1,0 +1,74 @@
+/* General */
+body{
+  background-color: #e5dbd1;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+/* header */
+.logo-nm {
+  width: 300px;
+}
+@media (max-width: 414px) {
+  .logo-nm {
+    width: 250px;
+  }
+}
+.top-nm {
+  background-color: #bdb4ab;
+}
+.navbar {
+  background-color: #a62335;
+}
+@media (min-width: 420px) {
+  .tel-nm {
+    display: none;
+  }
+  .num-nm {
+    display: none;
+  }
+}
+/* Main */
+.h-box{
+  line-height: 1.8;
+}
+
+ @media (max-width: 420px) {
+  #carouselExampleControls,  #carousel2, #Card-Text-rigth, #carousel3{
+    width: 100%;
+  }
+} 
+.bg-habita {
+  background-color: #bdb4ab;
+}
+@media (max-width: 768px) and (max-width: 414px) {
+    .h-box{
+      
+      line-height:1.6;
+    } 
+}
+.carousel-item {
+  height: 50vh;
+}
+
+ .bg-texto {
+  background-color: #e3e3e3;
+}
+.bg-texto2 {
+  background-color: #cbbcbc;
+}
+.bg-texto3 {
+  background-color: #bdc8b1;
+}
+.imagen-hab {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} 
+
+/* footer */
+footer {
+  background-color: #a62335;
+}
+.logo-jfs {
+  width: 200px;
+}
